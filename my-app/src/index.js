@@ -1,58 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import logo from './react-logo.png'
-import './index.css'
-
-function Header() {
-    return(
-    <header>
-    <nav className="nav">
-        <img class="logo" src={logo} alt="error"/>
-        <ul className="nav-items">
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-    </header>
-    )
-}
-
-function Content() {
-    return(
-        <div>
-            <h1>Facts about React!</h1>
-        <ol>
-            <li>Was first released in 2013</li>
-            <li>Was originally created by Jordan Walke</li>
-            <li>He well 100k stars in Github</li>
-            <li>Is maintained by facebook</li>
-            <li>Powers thousands of enterprise apps,including mobile apps</li>
-        </ol> 
-        </div>
-    )
-}
-
-function Footer() {
-    return(
-        <footer><small>© 2022 Sabari development. All rights reserved.</small></footer>
-    )
-}
-
-function TemporaryName() {
-
-    return(
-    <div>
-        <Header/>
-        <Content/>
-        <Footer/>
-    </div>
-    )
-}
+import  App from'./App'
 
 ReactDOM.render(
-    <TemporaryName />,
-    document.getElementById("main")
+    <App />,document.getElementById("main")
 )
 
 
