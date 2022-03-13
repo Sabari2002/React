@@ -84,24 +84,22 @@ section {
   padding:20px;
 }
 
+
 .intro {
-  width: 300px;
   height: 14px;
-  margin-left: -100px;
   margin-top: 25px;
   font-weight: 300;
   font-size: 16px;
   line-height: 110%;
   color: #222222;
+  margin-left:-100px;
   }
 
 .price {
-  margin-top:50px;
-  margin-left:-300px;
-  width: 200px;
   height: 14px;
   font-size: 16px;
   line-height: 110%;
+  margin-left:-100px;
 }
 
 .bold {
@@ -112,9 +110,6 @@ section {
   line-height: 110%;
   color: #222222;
 }
-
-
-
 
 
 
