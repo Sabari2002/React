@@ -3,22 +3,24 @@ import React from "react";
 
 
 export default function Card(props) {
+    let badgeText
+    if (props.item.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.item.location === "Online") {
+        badgeText = "ONLINE"
+    } 
     return(
             <div className="card">
-                    <div className="content">
-                    <img className="img" src={props.img} />
-                    <div className="aa">
+                {badgeText && <div className="badge">{badgeText}</div>}
+                    <img className="img" src={props.item.coverImg} />
+                    <div className="stats">
                         <img className="star" src="./images/star.png" />
-                        <div className="even">
-                        <p className="rating">{props.rating} </p>
-                        <p className="count">({props.count}).{props.location}</p>
-                        </div>
-                        <div className="text">
-                        <p className="intro">{props.intro}</p>
-                        <p className="price"><span class="bold">From ${props.bold} </span>/ person</p>
-                        </div>
+                        <p className="rating">{props.item.stats.rating} </p>
+                        <p className="count">({props.item.stats.reviewCount})•{props.item.location}</p>
                     </div>
-                    </div>
+                        <p className="intro">{props.item.title}</p>
+                        <p className="price"><span class="bold">From ${props.item.price} </span>/ person</p>
             </div>
         )
-}
+
+    }

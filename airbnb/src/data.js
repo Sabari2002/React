@@ -7,7 +7,7 @@ export default [
         coverImg: "images/katie-zaferes.png",
         stats: {
             rating: 5.0,
-            reviewCount: (6)
+            reviewCount: 6
         },
         location: "Online",
         openSpots: 0,
@@ -20,7 +20,7 @@ export default [
         coverImg: "images/wedding-photography.png",
         stats: {
             rating: 5.0,
-            reviewCount: (30)
+            reviewCount: 30
         },
         location: "Online",
         openSpots: 27,
@@ -33,9 +33,10 @@ export default [
         coverImg: "images/mountain-bike.png",
         stats: {
             rating: 4.8,
-            reviewCount: (2)
+            reviewCount: 2
         },
         location: "Norway",
         openSpots: 3,
     }
+    
 ]
