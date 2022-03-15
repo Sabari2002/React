@@ -9,7 +9,6 @@ body {
 
 nav {
   background-color : #F55A5A;
-  /* width:130%; */
   height:90px;
   margin: 0;
   display:flex;
@@ -28,7 +27,7 @@ nav {
 
 .hero-img {
   width:350px;
-  height:510px;
+  height:500px;
   border-radius: 15px;
 }
 
@@ -47,7 +46,6 @@ nav {
 .hero-place {
   display:flex;
   margin-top:60px;
-  margin-right: -30px;
 }
 
 .place {
@@ -68,7 +66,7 @@ nav {
   font-size:20px;
   margin-top: 7px;
   margin-left:18px;
-  width: 300px;
+  width: 250px;
 }
 
 .title {
@@ -77,7 +75,7 @@ nav {
   line-height: 30px;
   font-size: 60px;
   margin-top: 25px;
-  width:1000px;
+  width:700px;
 }
 
 .date {
@@ -94,6 +92,8 @@ nav {
   width:600px;
   font-size:20px;
 }
+
+
 
 
 
